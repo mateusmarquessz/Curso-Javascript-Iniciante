@@ -15,3 +15,6 @@ console.log(idade++);
 
 console.log(idade);
 console.log(idade--)
+
+console.log(1 === 1);
+console.log(-1 === 1)
