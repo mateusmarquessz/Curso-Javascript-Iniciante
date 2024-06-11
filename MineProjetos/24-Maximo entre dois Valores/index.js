@@ -4,7 +4,10 @@ let x = 10;
 let y = 4;
 
 function Maiornumero(x,  y){
-    let maior = x;
+    if(x>y){
+        return x
+    }else{
+        return y
+    }
 }
-
-console.log(Maiornumero)
+console.log(Maiornumero(x,y))
